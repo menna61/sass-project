@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.span, #contact .bottom .square2, #offers .offer-text .square2, #offers .offer-text .square, #courses .course-text .square2, #courses .course-text .square, #about .about-text .square2, #about .about-text .square, .header .header-text .square2, .header .header-text .square {
+  margin: 15px 0;
+  height: 15px;
+  width: 15px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+
+.line-1, #courses .course-text .bottom .line1, .header .header-text .bottom .line1 {
+  width: 5.5rem;
+  height: 3px;
+  background-color: #f67c92;
+}
+
+.line-2, #courses .course-text .bottom .line2, .header .header-text .bottom .line2 {
+  width: 4rem;
+  height: 3px;
+  background-color: #f67c92;
+  margin-top: 10px;
+}
+
+.button, #contact .contact-form form .btns button, #offers .offer-text button, #courses .course-text button, #features button, .header .header-text button {
+  padding: 10px 15px;
+  border: none;
+  border: 2px solid #f67c92;
+  background-color: #fff;
+  font-weight: bold;
+}
+.button:hover, #contact .contact-form form .btns button:hover, #offers .offer-text button:hover, #courses .course-text button:hover, #features button:hover, .header .header-text button:hover {
+  background-color: #f67c92;
+  color: #fff;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 8rem;
+}
+.header .logo {
+  padding: 0rem 6rem;
+}
+.header .header-text {
+  padding: 5rem 6rem;
+  padding-right: 0;
+}
+.header .header-text button {
+  transition: all 0.5s ease-in-out;
+}
+.header .header-text .square2 {
+  margin-top: 3.5rem;
+}
+#side-nav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background-color: #f67c92;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+#side-nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+#side-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#about {
+  margin-bottom: 8rem;
+}
+#about img {
+  width: 100%;
+}
+#about .about-text {
+  text-align: right;
+  padding: 2rem 6.5rem;
+}
+#about .about-text p {
+  font-weight: bold;
+}
+#about .about-text .square2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+#about .about-text .line1 {
+  width: 5.5rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+#about .about-text .line2 {
+  width: 4rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+#features {
+  margin-bottom: 8rem;
+  font-weight: bold;
+}
+#features p {
+  font-weight: normal;
+  color: gray;
+}
+#features button {
+  transition: all 0.5s ease-in-out;
+}
+
+#courses {
+  margin-bottom: 8rem;
+}
+#courses .course-text {
+  padding: 2rem 6rem;
+  padding-right: 0;
+}
+#courses .course-text button {
+  transition: all 0.5s ease-in-out;
+}
+#courses .course-text .square2 {
+  margin-top: 3.5rem;
+}
+#courses img {
+  width: 100%;
+}
+
+#offers {
+  margin-bottom: 8rem;
+}
+#offers img {
+  width: 100%;
+}
+#offers .offer-text {
+  text-align: right;
+  padding: 2rem 6.5rem;
+}
+#offers .offer-text button {
+  transition: all 0.5s ease-in-out;
+}
+#offers .offer-text p {
+  font-weight: bold;
+}
+#offers .offer-text .square2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+#offers .offer-text .line1 {
+  width: 5.5rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+#offers .offer-text .line2 {
+  width: 4rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+#contact {
+  margin-bottom: 5px;
+}
+#contact img {
+  width: 100%;
+}
+#contact .contact-form {
+  padding: 3rem 6.5rem;
+  width: 100%;
+}
+#contact .contact-form form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 2px solid #f67c92;
+  outline: none;
+}
+#contact .contact-form form .btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#contact .contact-form form .btns button {
+  transition: all 0.5s ease-in-out;
+  flex-basis: 48%;
+}
+#contact .bottom .square2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+#contact .bottom .line1 {
+  width: 5.5rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+#contact .bottom .line2 {
+  width: 4rem;
+  height: 3px;
+  background-color: #f67c92;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.footer hr {
+  height: 1px;
+  background-color: #f67c92;
+  margin-bottom: 5rem;
+}
+.footer h4 {
+  color: #f67c92;
+  margin-bottom: 1rem;
+}
+.footer p {
+  margin-bottom: 5px !important;
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
